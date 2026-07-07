@@ -148,10 +148,9 @@ The datetime module is used in:
 ---
 
 # Mini Project
-
-========================================
+--------------------------------------
       DATE & AGE UTILITY TOOLKIT
-========================================
+--------------------------------------
 
 1. Current Date & Time
 2. Calculate Age
@@ -161,15 +160,15 @@ The datetime module is used in:
 6. Exit
 
 It demonstrates:
-datetime.now()
-strptime()
-strftime()
-timedelta()
-Date arithmetic
-User input
-Functions
-Loops
-Conditionals
+datetime.now(),
+strptime(),
+strftime(),
+timedelta(),
+Date arithmetic,
+User input,
+Functions,
+Loops,
+Conditionals.
 
 ---
 
