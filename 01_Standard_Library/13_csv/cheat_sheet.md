@@ -141,30 +141,41 @@ with open("employees.csv", "r") as file:
     "Department": "CSE"
 }
 ```
-<!-- Imagine you have this row:
+Imagine you have this row:
+```csv
 101,Akhil,20,CSE
-
-Using reader():
+```
+Using `reader()`:
+```python
 ['101', 'Akhil', '20', 'CSE']
-
+```
 You must remember:
+```text
 0 → ID
 1 → Name
 2 → Age
 3 → Department
+```
 
-Using DictReader():
+Using `DictReader()`:
+```python
 {
     "ID": "101",
     "Name": "Akhil",
     "Age": "20",
     "Department": "CSE"
 }
+```
+
 Now you can simply write:
+```python
 employee["Department"]
+```
 
 instead of:
-employee[3] -->
+```python
+employee[3]
+```
 ---
 
 ## 6. csv.DictWriter()
@@ -279,11 +290,17 @@ writer.writeheader()
 
 # Important
 
-<!-- newline="" prevents extra blank lines from appearing in a CSV file while writing. It allows the csv module to handle line breaks correctly.
-Example:
+`newline=""` prevents extra blank lines from appearing in a CSV file while writing. It allows the `csv` module to handle line breaks correctly.
+
+**Example**
+```python
 with open("employees.csv", "w", newline="") as file:
-Memory Tip:
-Writing CSV → Always use newline="" ✅ -->
+```
+
+**Memory Tip**
+```
+Writing CSV → Always use newline=""
+```
 ---
 # Quick Revision
 
