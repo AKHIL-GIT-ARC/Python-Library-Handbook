@@ -279,11 +279,11 @@ writer.writeheader()
 
 # Important
 
-newline="" prevents extra blank lines from appearing in a CSV file while writing. It allows the csv module to handle line breaks correctly.
+<!-- newline="" prevents extra blank lines from appearing in a CSV file while writing. It allows the csv module to handle line breaks correctly.
 Example:
 with open("employees.csv", "w", newline="") as file:
 Memory Tip:
-Writing CSV → Always use newline="" ✅
+Writing CSV → Always use newline="" ✅ -->
 ---
 # Quick Revision
 
