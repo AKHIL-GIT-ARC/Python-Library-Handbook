@@ -1,4 +1,3 @@
-````markdown
 # Textwrap — Interview Questions
 
 ## 1. What is the `textwrap` module?

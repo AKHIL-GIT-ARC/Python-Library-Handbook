@@ -1,4 +1,3 @@
-````markdown
 # Textwrap — Cheat Sheet
 
 ## Import

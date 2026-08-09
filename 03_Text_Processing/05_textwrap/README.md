@@ -1,5 +1,3 @@
-````markdown
-
 # Textwrap in Python
 
 The `textwrap` module is used to format and wrap long strings.
